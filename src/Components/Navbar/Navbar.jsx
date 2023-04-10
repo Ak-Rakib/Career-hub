@@ -46,21 +46,21 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
-            <li>
+            <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
               <a>Statistics</a>
             </li>
-            <li>
+            <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
               <a>Applied Jobs</a>
             </li>
-            <li>
+            <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
               <a>Blog</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="px-4 py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
+          <button className="px-4 py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
             Star Applying
-          </a>
+          </button>
         </div>
       </div>
     </div>
