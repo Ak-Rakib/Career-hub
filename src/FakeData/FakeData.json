@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cat1",
+    "icon": "/src/assets/Icons/chip 1.png",
+    "category": "Technology",
+    "title": "300 Jobs Available"
+  },
+
+  {
+    "id": "cat2",
+    "icon": "/src/assets/Icons/social-media 1.png",
+    "category": "Social-media",
+    "title": "100 Jobs Available"
+  },
+
+  {
+    "id": "cat3",
+    "icon": "/src/assets/Icons/business 1.png",
+    "category": "Education",
+    "title": "350 Jobs Available"
+  },
+
+  {
+    "id": "cat4",
+    "icon": "/src/assets/Icons/accounts 1.png",
+    "category": "Finance",
+    "title": "200 Jobs Available"
+  }
+]
