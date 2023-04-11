@@ -29,7 +29,9 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <img className="w-20" src={logo} alt="" />
+                <Link to="/">
+                  <img className="w-20" src={logo} alt="" />
+                </Link>
               </li>
               <li>
                 <Link to="/statistics">Statistics</Link>
@@ -43,18 +45,20 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link to="/"><img className="w-20 hidden sm:block"  src={logo} alt="" /></Link>
+          <Link to="/">
+            <img className="w-20 hidden sm:block" src={logo} alt="" />
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
-            <Link to="/statistics">Statistics</Link>
+              <Link to="/statistics">Statistics</Link>
             </li>
             <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
-            <Link to="/appliedJob">Applied Jobs</Link>
+              <Link to="/appliedJob">Applied Jobs</Link>
             </li>
             <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
-            <Link to="/blog">Blog</Link>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
