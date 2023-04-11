@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../../assets/Logo/main-logo.png'
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import Social from '../../assets/Icons/Group 9969.png'
 
 const Footer = () => {
   return (
@@ -15,10 +15,8 @@ const Footer = () => {
             <br />
             Providing reliable tech since 1992
           </p>
-          <div className="flex justify-between">
-            <FaFacebook></FaFacebook>
-            <FaTwitter></FaTwitter>
-            <FaInstagram></FaInstagram>
+          <div>
+            <img src={Social} alt="" />
           </div>
         </div>
         <div>

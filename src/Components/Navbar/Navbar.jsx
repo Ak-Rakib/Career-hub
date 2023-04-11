@@ -58,7 +58,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="px-4 py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
+          <button className="btn border-0 px-4 py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
             Star Applying
           </button>
         </div>

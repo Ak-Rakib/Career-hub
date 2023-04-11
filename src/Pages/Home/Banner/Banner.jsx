@@ -19,7 +19,7 @@ const Banner = () => {
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
           </p>
-          <button className="px-4 py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
+          <button className="btn border-0 px-4 py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
             Get Started
           </button>
         </div>

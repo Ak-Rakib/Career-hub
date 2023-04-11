@@ -1,0 +1,53 @@
+[
+  {
+    "id": "cat01",
+    "icon": "/src/assets/All Images/google-1-1 1.png",
+    "position": "Technical Database Engineer",
+    "name": "Google LLC",
+    "icon2": "/src/assets/Icons/Frame-4.png",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 100K - 150K",
+    "icon3": "/src/assets/Icons/Frame.png",
+    "time": "Full Time",
+    "venue": "Remote"
+  },
+
+  {
+    "id": "cat02",
+    "icon": "/src/assets/All Images/netflix-4 1.png",
+    "position": "Senior Product Designer",
+    "name": "Netflix",
+    "icon2": "/src/assets/Icons/Frame-4.png",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 100K - 150K",
+    "icon3": "/src/assets/Icons/Frame.png",
+    "time": "Part Time",
+    "venue": "Outside"
+  },
+
+  {
+    "id": "cat03",
+    "icon": "/src/assets/All Images/tesla-9 1.png",
+    "position": "Software Engineer",
+    "name": "Tesla",
+    "icon2": "/src/assets/Icons/Frame-4.png",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 100K - 150K",
+    "icon3": "/src/assets/Icons/Frame.png",
+    "time": "Weekly 30hrs",
+    "venue": "Remote"
+  },
+
+  {
+    "id": "cat04",
+    "icon": "/src/assets/All Images/Group 10021.png",
+    "position": "Technical Database Engineer",
+    "name": "airbnb",
+    "icon2": "/src/assets/Icons/Frame-4.png",
+    "location": "Dhaka, Bangladesh",
+    "salary": "Salary : 100K - 150K",
+    "icon3": "/src/assets/Icons/Frame.png",
+    "time": "Full Time",
+    "venue": "Outside"
+  }
+]

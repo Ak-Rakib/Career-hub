@@ -18,7 +18,7 @@ const Category = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid md:grid-cols-4 gap-10 m-20 ">
+      <div className="grid md:grid-cols-4 gap-5 mt-5 md:m-20">
         {
             icons.map(i => <ShowCategories
             key={i.id}
