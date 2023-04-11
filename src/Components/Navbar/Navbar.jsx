@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/Logo/main-logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -31,29 +32,29 @@ const Navbar = () => {
                 <img className="w-20" src={logo} alt="" />
               </li>
               <li>
-                <a>Statistics</a>
+                <Link to="/statistics">Statistics</Link>
               </li>
               <li>
-                <a>Applied Jobs</a>
+                <Link to="/appliedJob">Applied Jobs</Link>
               </li>
 
               <li>
-                <a>Blog</a>
+                <Link to="/blog">Blog</Link>
               </li>
             </ul>
           </div>
-          <img className="w-20 hidden sm:block" src={logo} alt="" />
+          <Link to="/"><img className="w-20 hidden sm:block"  src={logo} alt="" /></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
-              <a>Statistics</a>
+            <Link to="/statistics">Statistics</Link>
             </li>
             <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
-              <a>Applied Jobs</a>
+            <Link to="/appliedJob">Applied Jobs</Link>
             </li>
             <li className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-blue-500 hover:to-purple-500 text-transparent bg-clip-text">
-              <a>Blog</a>
+            <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>

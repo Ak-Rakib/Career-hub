@@ -13,7 +13,7 @@ const FeatureJob = () => {
     <div>
       <div className="mt-16 text-center">
         <h1 className="font-bold text-4xl">Featured Job</h1>
-        <p className="mt-2">
+        <p className="mt-2 text-gray-400 font-normal">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>

@@ -1,19 +1,20 @@
 import React from "react";
-import logo from '../../assets/Logo/main-logo.png'
-import Social from '../../assets/Icons/Group 9969.png'
+import logo from "../../assets/Logo/main-logo.png";
+import Social from "../../assets/Icons/Group 9969.png";
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-base-200 text-base-content">
-        <div className="flex flex-col items-center">
+        <div>
           <div>
-          <img className="w-20" src={logo} alt="" />
+            <img className="w-20 mb-5" src={logo} alt="" />
           </div>
-          <p>
+          <p className="mb-5">
             ACME Industries Ltd.
             <br />
-            Providing reliable tech since 1992
+            There are many variations of passages of Lorem Ipsum <br /> , but the
+            majority have suffered alteration in some form.
           </p>
           <div>
             <img src={Social} alt="" />
