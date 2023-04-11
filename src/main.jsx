@@ -8,6 +8,7 @@ import Home from './Pages/Home/Home'
 import Statistics from './Pages/Statistics/Statistics'
 import AppliedJob from './Pages/AppliedJob/AppliedJob'
 import Blog from './Pages/Blog/Blog'
+import ShowDetails from './Pages/ShowDetails/ShowDetails'
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
 
       {
         path: '/statistics',
-        element: <Statistics></Statistics>
+        element: <Statistics></Statistics>,
+        loader: () => fetch('assignmentGraphChart.json')
       },
 
       {
@@ -33,6 +35,11 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
+      },
+
+      {
+        path: '/showDetails',
+        element: <ShowDetails></ShowDetails>
       }
     ]
   }
