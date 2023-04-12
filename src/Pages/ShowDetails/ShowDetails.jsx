@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import vector1 from "../../assets/All Images/Vector.png";
 import vector from "../../assets/All Images/Vector-1.png";
 import { useLoaderData } from "react-router-dom";
-import { getStoredCart } from "../../Utilities/fakeDb";
 import ShowingCartDetails from "../ShowingCartDetails/ShowingCartDetails";
 
 const ShowDetails = () => {

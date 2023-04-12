@@ -1,11 +1,16 @@
 import React from "react";
 import money from "../../assets/Icons/Frame.png";
 import job from "../../assets/Icons/Frame-1.png";
-import phone from "../../assets/Icons/Frame-2.png";
+import pimg from "../../assets/Icons/Frame-2.png";
 import mail from "../../assets/Icons/Frame-3.png";
 import location from "../../assets/Icons/Frame-4.png";
+import { Link } from "react-router-dom";
+import { addToDb } from "../../Utilities/fakeDb";
 
 const ShowingCartDetails = ({ data }) => {
+    const handleJobClick = (id) => {
+        addToDb(id);
+      };
   const {
     description,
     responsibility,
@@ -16,6 +21,7 @@ const ShowingCartDetails = ({ data }) => {
     phone,
     email,
     address,
+    id
   } = data;
   return (
     <div>
@@ -77,7 +83,7 @@ const ShowingCartDetails = ({ data }) => {
               </p>
               <ul>
                 <li className="flex items-center mt-5">
-                  <img className="w-5" src={phone} alt="" />{" "}
+                  <img className="w-5" src={pimg} alt="" />{" "}
                   <span className="font-bold  text-gray-500">
                     Phone:{" "}
                     <span className="mt-2 text-gray-400 font-normal">
@@ -105,7 +111,13 @@ const ShowingCartDetails = ({ data }) => {
                 </li>
               </ul>
             </div>
-            <button className="btn mt-5 font-bold border-0 bg-gradient-to-r from-blue-500 to-purple-500">Get Started</button>
+            <Link to="/appliedJob"
+                onClick={() => handleJobClick(id)}
+            >
+              <button className="btn mt-5 font-bold border-0 bg-gradient-to-r from-blue-500 to-purple-500">
+                Apply Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
