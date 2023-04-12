@@ -14,7 +14,7 @@ const ShowFeatureJob = ({ job }) => {
           <p className="text-gray-400 font-normal">{name}</p>
           <div className="flex">
             <button className="btn btn-outline btn-info">{venue}</button>
-            <button className="btn btn-outline btn-info">{time}</button>
+            <button className="btn btn-outline btn-info ms-2">{time}</button>
           </div>
           <div className="flex justify-between">
             <img className="w-5" src={icon2} alt="" />{" "}

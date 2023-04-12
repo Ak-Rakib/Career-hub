@@ -4,7 +4,7 @@ import Image from "../../../assets/All Images/banner-img.png";
 const Banner = () => {
   return (
     <div>
-      <div className="card lg:card-side bg-purple-100 mt-5 mb-5">
+      <div className="card lg:card-side bg-base-200 mb-5 rounded-none">
         <figure>
           <img src={Image} alt="Album" />
         </figure>

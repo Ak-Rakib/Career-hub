@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Logo/main-logo.png";
+import logo from "../../assets/Logo/banner-logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -46,7 +46,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/">
-            <img className="w-20 hidden sm:block" src={logo} alt="" />
+            <img className="w-28 hidden sm:block" src={logo} alt="" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Logo/main-logo.png";
+import logo from "../../assets/Logo/banner-logo.png";
 import Social from "../../assets/Icons/Group 9969.png";
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="footer p-10 bg-base-200 text-base-content">
         <div>
           <div>
-            <img className="w-20 mb-5" src={logo} alt="" />
+            <img className="w-20" src={logo} alt="" />
           </div>
           <p className="mb-5">
             ACME Industries Ltd.
