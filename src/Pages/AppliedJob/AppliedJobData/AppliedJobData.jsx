@@ -20,7 +20,7 @@ const AppliedJobData = ({ data }) => {
           <img
             className="ps-3"
             src={icon}
-            alt="Movie"
+            alt="Company logo"
           />
         </figure>
         <div className="card-body">
