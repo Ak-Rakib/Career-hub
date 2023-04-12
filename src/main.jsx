@@ -9,6 +9,8 @@ import Statistics from './Pages/Statistics/Statistics'
 import AppliedJob from './Pages/AppliedJob/AppliedJob'
 import Blog from './Pages/Blog/Blog'
 import ShowDetails from './Pages/ShowDetails/ShowDetails'
+import FeatureJob from './Pages/Home/FeatureJob/FeatureJob'
+import commonFunctionForGetDetailsData from './Loaders/CommonLoaderFunction'
 
 const router = createBrowserRouter([
   {
@@ -38,8 +40,14 @@ const router = createBrowserRouter([
       },
 
       {
-        path: '/showDetails',
-        element: <ShowDetails></ShowDetails>
+        path: '/',
+        element: <FeatureJob></FeatureJob>
+      },
+
+      {
+        path: "/showDetails",
+        element: <ShowDetails></ShowDetails>,
+        loader: commonFunctionForGetDetailsData
       }
     ]
   }

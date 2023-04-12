@@ -1,10 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ShowFeatureJob = ({ job }) => {
-  const { icon, icon2, icon3, position, name, location, salary, time, venue } =
-    job;
-  console.log(time, venue);
+const ShowFeatureJob = ({ job, handleJobClick }) => {
+  const {
+    icon,
+    icon2,
+    icon3,
+    position,
+    name,
+    location,
+    salary,
+    time,
+    venue,
+    id,
+  } = job;
+
   return (
     <div>
       <div className="card w-96 bg-base-200 shadow-xl">
@@ -25,6 +35,7 @@ const ShowFeatureJob = ({ job }) => {
           <div className="card-actions">
             <Link
               to="/showDetails"
+              onClick={() => handleJobClick(id)}
               className="btn border-0 bg-gradient-to-r from-blue-500 to-purple-500"
             >
               View Details
