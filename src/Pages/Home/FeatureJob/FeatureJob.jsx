@@ -32,7 +32,7 @@ const FeatureJob = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid md:grid-cols-2 gap-5 mb-5 mt-5 md:m-20">
+      <div className="grid md:grid-cols-2 gap-5 mb-5 mt-10 md:ps-40">
         {showAll
           ? jobs.map((job) => (
               <ShowFeatureJob

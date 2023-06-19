@@ -20,7 +20,7 @@ const Blog = () => {
           className="absolute bottom-0 left-0 h-24 w-24"
         />
       </div>
-      <div className="m-10">
+      <div className="md:m-10">
         <div className="m-5 border p-5">
           <h1 className="font-bold">When should you use context API?</h1>
           <p className="text-gray-400 font-normal">

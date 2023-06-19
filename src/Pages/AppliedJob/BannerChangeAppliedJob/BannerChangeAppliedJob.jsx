@@ -23,7 +23,7 @@ const BannerChangeAppliedJob = () => {
           className="absolute bottom-0 left-0 h-24 w-24"
         />
       </div>
-      <div className="m-10">
+      <div className="md:m-10">
         {
           newDetailsArray.map(data => <AppliedJobData
             key={data.id}
