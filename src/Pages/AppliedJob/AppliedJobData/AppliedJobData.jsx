@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AppliedJobData = ({ data }) => {
   const {
@@ -37,7 +38,8 @@ const AppliedJobData = ({ data }) => {
             <span className="text-gray-400 font-normal">{salary}</span>
           </div>
           <div className="card-actions flex justify-end items-center">
-            <button className="btn border-0 bg-gradient-to-r from-blue-500 to-purple-500">View Details</button>
+            <button className="btn border-0 bg-gradient-to-r from-blue-500 to-purple-500">confirm</button>
+            <button className="btn border-0 bg-gradient-to-r from-blue-500 to-purple-500"><Link to="/">back home</Link></button>
           </div>
         </div>
       </div>

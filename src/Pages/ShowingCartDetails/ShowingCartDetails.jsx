@@ -1,7 +1,7 @@
 import React from "react";
 import money from "../../assets/Icons/Frame.png";
 import job from "../../assets/Icons/Frame-1.png";
-import pimg from "../../assets/Icons/Frame-2.png";
+import img from "../../assets/Icons/Frame-2.png";
 import mail from "../../assets/Icons/Frame-3.png";
 import location from "../../assets/Icons/Frame-4.png";
 import { Link } from "react-router-dom";
@@ -83,7 +83,7 @@ const ShowingCartDetails = ({ data }) => {
               </p>
               <ul>
                 <li className="flex items-center mt-5">
-                  <img className="w-5" src={pimg} alt="" />{" "}
+                  <img className="w-5" src={img} alt="" />{" "}
                   <span className="font-bold  text-gray-500">
                     Phone:{" "}
                     <span className="mt-2 text-gray-400 font-normal">

@@ -7,7 +7,6 @@ const FeatureJob = () => {
   const [jobs, setJobs] = useState([]);
   const [showAll, setShowAll] = useState(false);
 
-
   useEffect(() => {
     fetch("SecondFakeData.json")
       .then((res) => res.json())
@@ -22,7 +21,6 @@ const FeatureJob = () => {
     addToDb(id);
   };
 
-
   return (
     <div>
       <div className="mt-16 text-center">
@@ -32,24 +30,26 @@ const FeatureJob = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid md:grid-cols-2 gap-5 mb-5 mt-10 md:ps-40">
-        {showAll
-          ? jobs.map((job) => (
-              <ShowFeatureJob
-                key={job.id}
-                job={job}
-                handleJobClick = {handleJobClick}
-              />
-            ))
-          : jobs
-              .slice(0, 4)
-              ?.map((job) => (
+      <div className="flex justify-evenly">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mb-5 mt-10 md:ps-30">
+          {showAll
+            ? jobs.map((job) => (
                 <ShowFeatureJob
                   key={job.id}
                   job={job}
-                  handleJobClick = {handleJobClick}
+                  handleJobClick={handleJobClick}
                 />
-              ))}
+              ))
+            : jobs
+                .slice(0, 6)
+                ?.map((job) => (
+                  <ShowFeatureJob
+                    key={job.id}
+                    job={job}
+                    handleJobClick={handleJobClick}
+                  />
+                ))}
+        </div>
       </div>
       <div className="flex justify-center mb-10">
         <Link
