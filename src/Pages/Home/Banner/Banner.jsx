@@ -8,7 +8,7 @@ const Banner = () => {
         <figure>
           <img src={Image} alt="Album" />
         </figure>
-        <div className="card-body">
+        <div className="card-body mt-12">
           <h1 className="text-7xl font-bold">One Step Closer </h1>
           <h1 className="text-6xl font-bold">To Your</h1>
           <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
@@ -19,9 +19,9 @@ const Banner = () => {
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
           </p>
-          <button className="btn border-0  py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
+          {/* <button className="btn border-0  py-2 rounded-md text-white font-bold bg-gradient-to-r from-blue-500 to-purple-500">
             Get Started
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
